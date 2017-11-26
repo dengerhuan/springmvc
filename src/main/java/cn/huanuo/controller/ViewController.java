@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ViewController {
 
     private static final Logger logger = LogManager.getLogger(ViewController.class.getName());
+
+
     @RequestMapping("kpi")
     public String name() {
         logger.info("kpi");

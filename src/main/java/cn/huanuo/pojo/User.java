@@ -1,4 +1,4 @@
-package cn.huanuo.dao;
+package cn.huanuo.pojo;
 
 public class User {
     public String getName() {

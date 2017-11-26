@@ -16,10 +16,10 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 @Repository
-public class UserRepository {
+public class UserDao {
 
 
-    private Logger logger = LogManager.getLogger(UserRepository.class);
+    private Logger logger = LogManager.getLogger(UserDao.class);
 
 
     @Autowired
